@@ -79,13 +79,14 @@ SELECT
     -- Duration in minutes
     (HOUR(v.Duration2)*60) + MINUTE(v.Duration2) + SECOND(v.Duration2)/60 AS duration_minutes,
 
-    -- Session type
+    -- Consumption Segmentation (by minutes)
     CASE 
-        WHEN (HOUR(v.Duration2)*60 + MINUTE(v.Duration2)) < 5 THEN 'Very Short'
-        WHEN (HOUR(v.Duration2)*60 + MINUTE(v.Duration2)) BETWEEN 5 AND 20 THEN 'Short'
-        WHEN (HOUR(v.Duration2)*60 + MINUTE(v.Duration2)) BETWEEN 21 AND 60 THEN 'Medium'
-        ELSE 'Long'
-    END AS session_type,
+        WHEN duration_minutes = 0 THEN 'Dormant'
+        WHEN duration_minutes <= 5 THEN 'Light'
+        WHEN duration_minutes <= 20 THEN 'Casual'
+        WHEN duration_minutes <= 60 THEN 'Engaged'
+        ELSE 'Power'
+    END AS consumption_segment,
 
     -- Clean Gender
     CASE 
@@ -95,7 +96,12 @@ SELECT
 
     -- Clean Race
     CASE 
-        WHEN u.Race IN ('None','Other','Unknown','') THEN 'Unknown'
+        WHEN u.Race IS NULL 
+            OR u.Race = '' 
+            OR u.Race = 'None'
+            OR u.Race = 'Other'
+            OR u.Race = 'Unknown'
+        THEN 'Unknown'
         ELSE u.Race
     END AS race,
 
