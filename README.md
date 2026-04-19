@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on analysing user viewership and profile data for BrightTV over a defined period.
+This project focuses on analysing user viewership and profile data for BrightTV over 3 months (January 2016 - March 2016).
 
 The objective is to understand how users interact with the platform by examining viewing behaviour, content performance, and engagement patterns. The insights generated are intended to support business decision-making and identify opportunities to improve user engagement and platform growth.
 
