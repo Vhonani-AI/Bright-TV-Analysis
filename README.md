@@ -1,163 +1,177 @@
 # BrightTV Data Analysis Project
 
-**## Project Overview**
+## Project Overview
 
-This project focuses on analysing user viewership and profile data for BrightTV over a given period.
+This project focuses on analysing user viewership and profile data for BrightTV over a defined period.
 
-The goal of this analysis is to understand how users interact with the platform by examining viewing trends, user behaviour, and content performance. The insights from this project are intended to support decision-making and highlight areas where user engagement and growth can be improved.
+The objective is to understand how users interact with the platform by examining viewing behaviour, content performance, and engagement patterns. The insights generated are intended to support business decision-making and identify opportunities to improve user engagement and platform growth.
 
-The analysis was done using SQL in Databricks, along with other tools for planning, visualisation, and presentation.
+The analysis was conducted using SQL in Databricks, supported by additional tools for planning, visualisation, and presentation.
 
+---
 
-**## Problem Statement**
+## Problem Statement
 
-BrightTV aims to better understand user behaviour and content consumption patterns. There is a need to explore the data in more detail to identify what drives engagement, which content performs best, and where improvements can be made to increase usage and grow the user base.
+BrightTV aims to better understand its users and how content is consumed across the platform. There is a need to explore the data to identify key drivers of engagement, evaluate content performance, and uncover areas where improvements can be made to increase usage and expand the user base.
 
+---
 
-**## Aim**
+## Aim
 
-The aim of this project is to analyse user and viewership data, identify key trends and patterns, and provide simple, clear recommendations that can help improve user engagement and platform growth.
+The aim of this project is to analyse user and viewership data, identify key trends and behavioural patterns, and provide clear, actionable recommendations to improve engagement and support platform growth.
 
-**## Objectives**
+---
+
+## Objectives
 
 The following steps were taken to complete the project:
 
-* Project planning using Canva
-* Brainstorming and structuring ideas using Miro
-* Data cleaning and analysis using Databricks (SQL)
-* Data visualisation using Excel
-* Presentation of findings using PowerPoint
+- Project planning using Canva  
+- Structuring and brainstorming using Miro  
+- Data cleaning and analysis using Databricks (SQL)  
+- Data visualisation using Excel  
+- Presentation of findings using PowerPoint  
 
+---
 
-**## 1. MIRO – Project Planning and Mind Map**
+## 1. MIRO – Project Planning and Mind Map
 
-A structured mind map was created in Miro to guide the analytical approach and ensure a clear understanding of the dataset.
+A structured mind map was created to guide the analytical approach and ensure a clear understanding of the dataset.
 
-### Key Areas Covered:
+### Key Areas Covered
+- Data understanding (columns, structure, relationships)  
+- Data cleaning strategy  
+- Exploratory Data Analysis (EDA)  
+- Business analysis (user behaviour, content, time trends)  
+- Cross-dimensional analysis  
+- Insights and recommendations  
 
-* Data understanding (columns, structure, relationships)
-* Data cleaning strategy
-* Exploratory Data Analysis (EDA)
-* Business analysis (user behaviour, content, time trends)
-* Advanced analysis (cross-dimensional insights)
-* Insights and recommendations
+### Purpose
+- Break down the problem into manageable steps  
+- Establish a clear analytical approach  
+- Ensure logical flow throughout the project  
 
-### Purpose:
+---
 
-* To break down the problem into manageable steps
-* To create a clear plan before starting the analysis
-* To ensure the analysis flows logically
+## 2. Canva – Project Timeline (Gantt Chart)
 
+A project timeline was developed to track progress and manage deliverables.
 
-**## 2. Canva – Project Timeline (Gantt Chart)**
+### Phases Included
 
-A project timeline was designed using Canva to track progress across the project.
+**Week 1: Foundation**
+- Understanding the case study  
+- Data inspection and exploration  
+- Data cleaning and preparation  
 
-### Phases Included:
+**Week 2: Analysis and Output**
+- User behaviour and engagement analysis  
+- Time-based and demographic segmentation  
+- Insight generation  
+- Final deliverables (presentation and GitHub)  
 
-Week 1: Foundation
+### Purpose
+- Maintain structure and organisation  
+- Ensure efficient time management  
+- Deliver the project within the required timeframe  
 
-* Understanding the case study
-* Data inspection and exploration
-* Data cleaning and preparation
+---
 
-Week 2: Analysis and Output
+## 3. Excel – Data Visualisation
 
-* User behaviour and engagement analysis
-* Time-based and demographic segmentation
-* Business insights generation
-* Final deliverables (presentation and GitHub)
+Excel was used to create visual representations of SQL outputs.
 
-### Purpose:
+### Visuals Created
+- Viewing trends by day and time of day  
+- User engagement by age group and gender  
+- Channel performance comparison  
+- Watch time distribution across provinces  
 
-* To stay organised and on track
-* To manage time effectively
-* To complete the project within the deadline
+### Purpose
+- Transform raw data into visual insights  
+- Identify patterns and trends efficiently  
+- Support storytelling in the final presentation  
 
+---
 
-**## 3. Excel – Data Visualisation**
+## 4. PowerPoint – Final Presentation
 
-Excel was used to create clear and effective visualisations based on SQL outputs.
+A PowerPoint presentation was developed to communicate findings in a clear and business-focused format.
+Prewiew of results: https://preview--joy-screen-spark.lovable.app/ 
 
-### Visuals Created:
+### Structure
+- User Analysis: Who is the BrightTV audience?
+- Usage Analysis: When do users watch?
+- Content Analysis: What are users watching?
+- Consumption Drivers: What drives engagement
+- Low Consumption
+- Monthly Trends
+- High Value users
 
-* Viewing trends by day and time of day
-* User engagement by age group and gender
-* Channel performance comparison
-* Watch time distribution across provinces
+### Purpose
+- Present findings professionally  
+- Translate analysis into business insights  
+- Demonstrate analytical and communication skills  
 
-### Purpose:
+---
 
-* Transform raw data into visual insights
-* Identify trends and patterns efficiently
-* Support storytelling in the presentation
+## Key Insights
 
+- User engagement is concentrated within a core demographic, particularly Adults and Young Adults  
+- Viewing behaviour follows clear time-based patterns, with peak activity during afternoons and evenings  
+- Engagement is higher towards the end of the week, with noticeable declines at the start of the week  
+- Sports content is the primary driver of both viewership and watch time  
+- A small group of users contributes significantly to total engagement  
+- Opportunities exist to improve engagement during low-activity periods and among underrepresented user groups  
 
-**## 4. PowerPoint – Final Presentation**
+---
 
-A PowerPoint presentation was developed to communicate findings in a clear, business-focused format.
+## Recommendations
 
-### Structure:
+- Expand content offerings to attract a more diverse audience  
+- Continue investing in high-performing content while diversifying categories  
+- Align content releases with peak viewing periods  
+- Introduce strategies to improve engagement during low-activity days  
+- Enhance user retention through personalised content and improved user experience  
+- Develop targeted approaches to retain high-value users  
+- Increase engagement in underperforming regions through tailored strategies  
 
-Introduction
-Business overview
-Data understanding
-Key analysis (SQL insights)
-Visualisations
-Insights
-Recommendations
+---
 
-### Purpose:
+## Summary of Results
 
-* Present findings in a professional format
-* Translate data into actionable business insights
-* Demonstrate analytical and storytelling skills
+The analysis highlights that BrightTV’s performance is driven by a strong core audience, with Adults and Young Adults contributing the majority of engagement, and sports content playing a central role in attracting and retaining users.
 
+User behaviour follows clear patterns, with peak activity occurring during leisure periods and higher engagement towards the end of the week. At the same time, there are noticeable gaps in engagement during early-week periods and among underrepresented demographic  groups.
 
-**## Key Insights Presented**
+Overall, the platform is experiencing positive growth, supported by increasing activity over time. By strengthening its content strategy, improving user retention, and expanding its audience reach, BrightTV is well-positioned to enhance engagement and support long-term growth.
 
-* User engagement is higher during specific times of the day, particularly during peak viewing periods
-* Certain channels consistently outperform others in both total views and watch time
-* Viewing activity varies across different days of the week, highlighting both high and low engagement periods
-* Demographic factors such as age and gender influence consumption patterns
-* Some time periods and segments show low activity, presenting opportunities for improvement
+---
 
+## Tools and Technologies
 
-**## Recommendations**
+- **Databricks (SQL)** – Data cleaning and analysis  
+- **Excel** – Data visualisation  
+- **Miro** – Project planning and mind mapping  
+- **Canva** – Timeline and Gantt chart creation  
+- **PowerPoint** – Presentation of findings  
 
-* Promote high-performing channels during low-engagement days
-* Introduce targeted content strategies based on user demographics
-* Create incentives to encourage viewing during off-peak periods
-* Improve content scheduling to align with peak usage times
-* Focus on retaining high-value users with high watch time
+---
 
+## Key Skills Demonstrated
 
-**## Summary of Results**
+- Data cleaning and preparation  
+- Exploratory Data Analysis (EDA)  
+- SQL querying (joins, aggregations, CASE statements, grouping)  
+- Data transformation and feature engineering  
+- Data visualisation  
+- Business insight generation  
+- Project planning and structured workflow execution  
 
-The analysis shows that user engagement is influenced by time, content type, and demographic factors. Viewing patterns are not evenly distributed, with clear peak periods and strong-performing channels driving most of the activity.
+---
 
-There are also clear opportunities to improve engagement during low-consumption periods through better content positioning and targeted strategies.
+## Conclusion
 
-**## Tools and Technologies**
+This project demonstrates how raw user and viewership data can be transformed into meaningful insights that support business decision-making. It highlights my ability to work through the full data analysis process, from planning and data preparation to analysis and presentation.
 
-Databricks (SQL) – Data analysis
-Miro – Project planning and mind mapping
-Canva – Timeline and Gantt chart creation
-Excel – Data visualisation
-PowerPoint – Final presentation
-
-**## Key Skills Demonstrated**
-
-* Data cleaning and preparation
-* Exploratory data analysis (EDA)
-* SQL querying (aggregations, CASE statements, grouping)
-* Data transformation and feature engineering
-* Data visualisation
-* Business insights generation
-* Project planning and workflow structuring
-
-**## Conclusion**
-
-This project shows how raw user and viewership data can be transformed into meaningful insights that support business decision-making. It demonstrates my ability to clean and structure data, analyse trends, and present findings in a clear and organised way.
-
-It also reflects my growing skills in SQL, data analysis, and problem-solving, as well as my ability to connect technical analysis to real-world business scenarios. While there is room to expand into more advanced analysis, this project highlights a strong foundation and clear potential for further development.
+It also reflects my developing skills in SQL, data analysis, and problem-solving, as well as my ability to connect technical findings to real-world business scenarios. While there is scope to explore more advanced techniques, this project establishes a strong foundation and demonstrates clear potential for further growth in data analytics.
