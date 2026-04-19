@@ -203,7 +203,7 @@ SELECT time_of_day,
 FROM `brightlearn`.`case_study`.`bright_television` 
 GROUP BY time_of_day;
 
--- NEW: Session behaviour 🔥
+-- Session behaviour
 SELECT session_type, COUNT(*) AS sessions 
 FROM `brightlearn`.`case_study`.`bright_television` 
 GROUP BY session_type;
